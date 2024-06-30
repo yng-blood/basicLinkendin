@@ -18,7 +18,7 @@ ul {
   
 }
 svg{
-   height:50px;
+ height: 50px;
     width: 50px;
 }
 ul li {
@@ -60,11 +60,10 @@ body {
 }
 
 /* left box */
-/* my left & right box pannel for my profile and works */
 .left_Box, .right_Box {
     border-radius: 10px;
     width: 600vw;
-    height: 90vh;
+    height:170vh;
     background-color: rgb(255, 255, 255);
     margin-left:90px ;
     margin-right: 90px;
@@ -130,7 +129,6 @@ body {
 }
 
 /* Center Heads Section */
-/* my center box pannel for my profiles and attachments for center section of posts */
 .Center_Heads_10_post {
     display: flex;
     justify-content: space-between;
@@ -390,5 +388,4 @@ display: flexbox;
     font-size: 0.9em;
     color: #aaa;
 }
-
 
