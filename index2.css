@@ -1,5 +1,5 @@
 
-/* head Nav  */
+/* head Nav that contains all my deta of navigaton bar */
 .basicContent {
     background-color: rgb(230, 163, 81);
     height: fit-content;
@@ -17,6 +17,9 @@ ul {
     flex-wrap: wrap;
   
 }
+svg{
+   height:50px;
+    width: 50px;
 
 ul li {
     display: block;
@@ -57,10 +60,11 @@ body {
 }
 
 /* left box */
+/* my left & right box pannel for my profile and works */
 .left_Box, .right_Box {
     border-radius: 10px;
     width: 600vw;
-    height: 900vh;
+    height: 90vh;
     background-color: rgb(255, 255, 255);
     margin-left:90px ;
     margin-right: 90px;
@@ -126,6 +130,7 @@ body {
 }
 
 /* Center Heads Section */
+/* my center box pannel for my profiles and attachments for center section of posts */
 .Center_Heads_10_post {
     display: flex;
     justify-content: space-between;
@@ -387,4 +392,3 @@ display: flexbox;
 }
 
 
-/* orderlists */
